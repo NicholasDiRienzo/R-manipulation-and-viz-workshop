@@ -1,0 +1,35 @@
+---
+title: "resbar_workshop"
+author: "Nicholas DiRienzo"
+date: "5/21/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Welcome to the Data wrangling and visualization in R with tidyverse workshop!
+
+## If you haven't set up R and R studio, you can follow [this tutorial](https://docs.google.com/presentation/d/1T0Tf-ub_qZsjVSZo5cveNEqhDdco1liWt0Q5Hs5c_Wo/edit?usp=sharing)
+
+## We'll be working with two data sets for this workshop.  You can download them directly, or just use the provided link to import them them directly from my google drive.  
+
+[Beer data]("https://docs.google.com/spreadsheets/d/18Iux-10Ggj2qLNEgH5WJGGUNTKET9Tpy3HHl1gc6L9Y/gviz/tq?tqx=out:csv")
+
+```{r, eval=FALSE}
+beer <- read_csv("https://docs.google.com/spreadsheets/d/18Iux-10Ggj2qLNEgH5WJGGUNTKET9Tpy3HHl1gc6L9Y/gviz/tq?tqx=out:csv")
+```
+
+
+
+
+[bike data]("https://docs.google.com/spreadsheets/d/1DK8ZSmIgvZ1eVVF33NCNLyLxvYFA8t1jeGrJppaBDpI/gviz/tq?tqx=out:csv")
+
+```{r, eval=FALSE}
+bikes <- read_csv("https://docs.google.com/spreadsheets/d/1DK8ZSmIgvZ1eVVF33NCNLyLxvYFA8t1jeGrJppaBDpI/gviz/tq?tqx=out:csv")
+```
+
+
+
